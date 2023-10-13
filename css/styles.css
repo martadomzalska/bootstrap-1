@@ -12,6 +12,10 @@ body {
     font-size: 1.6rem;
 }
 
+.orange-color {
+ color: rgb(170, 3, 3);
+}
+
 .navbar-brand {
     font-size: 2.2rem;
     text-transform: uppercase;
@@ -43,3 +47,21 @@ body {
 .home .welcome-text {
     font-size: 2.2rem;
 }
+
+.about-box h3 {
+font-size: 2.4rem;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.about-box-icon {
+    font-size: 4rem;
+}
+.accordion-button{
+    font-size: 1.8rem;
+    padding: 1em;
+}
+
+/* .accordion-button:not(.collapsed) {
+    background-color: whitesmoke;
+} */
