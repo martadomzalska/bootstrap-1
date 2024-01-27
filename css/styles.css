@@ -62,6 +62,15 @@ text-transform: uppercase;
     padding: 1em;
 }
 
-/* .accordion-button:not(.collapsed) {
-    background-color: whitesmoke;
-} */
+.team {
+background-color: rgb(248, 248, 248);
+}
+
+.team .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.team .card-title {
+font-size: 2rem;
+}
