@@ -20,8 +20,11 @@
     />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 fixed-top">
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <nav
+      id="navbar-example"
+      class="navbar navbar-expand-lg bg-body-tertiary py-4 fixed-top"
+    >
       <div class="container">
         <a class="navbar-brand text-primary-emphasis" href="#"
           ><i class="bi bi-camera2"></i> MNX Studio</a
@@ -84,7 +87,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div
-                class="about-box m-3 p-4 p-lg-5 border text-light-emphasis bg-primary-subtle"
+                class="about-box m-3 p-4 p-lg-5 border text-light bg-dark"
               >
                 <h3>Klienci</h3>
                 <i class="bi bi-people-fill about-box-icon"></i>
@@ -106,7 +109,7 @@
             </div>
             <div class="col-12 col-md-6 col-lg-3">
               <div
-                class="about-box m-3 p-4 p-lg-5 border text-light-emphasis bg-primary-subtle"
+                class="about-box m-3 p-4 p-lg-5 border text-light bg-dark"
               >
                 <h3>Ceny</h3>
                 <i class="bi bi-currency-euro about-box-icon"></i>
@@ -230,16 +233,28 @@
           <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
             <div class="col">
               <div class="card h-100">
-                <img src="/img/hunger-413685_1280.jpeg" class="card-img-top" alt="Prezes">
+                <img
+                  src="/img/hunger-413685_1280.jpeg"
+                  class="card-img-top"
+                  alt="Prezes"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Prezes</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="/img/woman-1274361_1280.jpeg" class="card-img-top" alt="HR">
+                <img
+                  src="/img/woman-1274361_1280.jpeg"
+                  class="card-img-top"
+                  alt="HR"
+                />
                 <div class="card-body">
                   <h5 class="card-title">HR</h5>
                   <p class="card-text">This is a short card.</p>
@@ -248,19 +263,34 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="/img/fashion-3080644_1280.jpeg" class="card-img-top" alt="Marketing">
+                <img
+                  src="/img/fashion-3080644_1280.jpeg"
+                  class="card-img-top"
+                  alt="Marketing"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Marketing</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content.
+                  </p>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="/img/man-1867175_1280.jpeg" class="card-img-top" alt="Grafik">
+                <img
+                  src="/img/man-1867175_1280.jpeg"
+                  class="card-img-top"
+                  alt="Grafik"
+                />
                 <div class="card-body">
                   <h5 class="card-title">Grafik</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text">
+                    This is a longer card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
                 </div>
               </div>
             </div>
@@ -269,40 +299,62 @@
       </section>
       <section id="contact" class="contact bg-dark text-light py-5">
         <div class="container text-center py-5">
-          <p class="display-3 pb-lg text-uppercase">Napisz do nas!</p>  
-        <div class="row">
-          <div class="col-lg-9 my-5 m-lg-0">
-<form>
-  <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Imię i nazwisko" aria-label="Username" aria-describedby="basic-addon1">
-  </div>
-  <div class="input-group mb-3">
-    <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
-  </div>
-  <div class="input-group mb-3">
-   <textarea rows="6" class="form-control" placeholder="Treść wiadomości"></textarea>
-  </div>
-  <input type="submit" value="Wyślij">
-  
-</form>
-
-
+          <p class="display-3 pb-lg text-uppercase">Napisz do nas!</p>
+          <div class="row">
+            <div class="col-lg-9 my-5 m-lg-0">
+              <form>
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Imię i nazwisko"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <textarea
+                    rows="6"
+                    class="form-control"
+                    placeholder="Treść wiadomości"
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Wyślij"
+                  class="btn btn-light px-4 py-2 submit-btn"
+                />
+              </form>
+            </div>
+            <div class="col-lg-3 mt-4 m-lg-0 contact-info">
+              <h3>Adres:</h3>
+              <p>MNX Studio</p>
+              <p><i class="bi bi-geo-alt"></i>ul.Sezamkowa 0</p>
+              <p><i class="bi bi-phone"></i>+48 284 385 299</p>
+              <p><i class="bi bi-at"></i>kontakt@gmail.com</p>
+            </div>
           </div>
-          <div class="col-lg-3 mt-4 m-lg-0 contact-info">
-            
-            <h3>Adres:</h3>
-            <p>MNX Studio</p>
-            <p><i class="bi bi-geo-alt"></i>ul.Sezamkowa 0</p>
-            <p><i class="bi bi-phone"></i>+48 284 385 299</p>
-            <p><i class="bi bi-at"></i>kontakt@gmail.com</p>
-          </div>
-        </div>      </div>
+        </div>
       </section>
     </main>
+    <footer class="bg-dark text-light border-top">
+      <p class="text-center mb-0 py-5">&copy; MNX Studio</p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
-    ></script>
+    >
+    </script>
+    <script src="/script.js"></script>
   </body>
 </html>
